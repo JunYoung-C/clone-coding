@@ -1,3 +1,12 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  border-top: 1px solid rgba(114, 112, 112, 0.3);
+  box-sizing: border-box;
+}
+
 .nav__list {
   display: flex;
   justify-content: space-between;
@@ -5,4 +14,12 @@
 
 .nav__btn {
   padding: 15px 52px;
+}
+
+.nav__link {
+  color: #2f363e;
+}
+
+body {
+  height: 1000vh;
 }
