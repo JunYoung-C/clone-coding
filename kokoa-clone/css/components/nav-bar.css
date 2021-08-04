@@ -14,12 +14,38 @@
 
 .nav__btn {
   padding: 15px 52px;
+  position: relative;
 }
 
 .nav__link {
   color: #2f363e;
 }
 
-body {
-  height: 1000vh;
+.nav__notification {
+  background-color: red;
+  display: flex;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 40px;
+  bottom: 22px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.nav__check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  position: absolute;
+  right: 48px;
+  top: 12px;
 }
