@@ -21,3 +21,12 @@
   font-size: 15px;
   color: rgba(0, 0, 0, 0.5);
 }
+
+.user-component__avatar--xl {
+  width: 65px;
+  height: 65px;
+  border-radius: 27px;
+}
+
+.user-component__avatar--xs {
+}
