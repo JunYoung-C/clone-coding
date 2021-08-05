@@ -8,5 +8,21 @@
   background-color: #abc1d1;
 }
 .main-chat {
-  margin-top: 150px;
+  margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat__timestamp {
+  background-color: #92a4b2;
+  color: white;
+  padding: 8px;
+  border-radius: 15px;
+  font-size: 13px;
+}
+
+.message-row img {
+  width: 15px;
+  height: 15px;
 }
