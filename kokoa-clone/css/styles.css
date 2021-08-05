@@ -20,3 +20,7 @@ a {
 body {
   color: #2f363e;
 }
+
+.main-screen {
+  padding: 0 var(--horizontal-space);
+}
