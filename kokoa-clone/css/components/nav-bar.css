@@ -22,19 +22,9 @@
 }
 
 .nav__notification {
-  background-color: red;
-  display: flex;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   right: 40px;
   bottom: 22px;
-  color: white;
-  font-size: 13px;
-  font-weight: 600;
 }
 
 .nav__check {
