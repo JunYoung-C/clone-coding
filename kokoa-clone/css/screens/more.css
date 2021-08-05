@@ -1,0 +1,9 @@
+.more-screen .icon-row {
+  margin: 30px 0;
+}
+
+.more-suggestions__title {
+  border-top: var(--main-border);
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
