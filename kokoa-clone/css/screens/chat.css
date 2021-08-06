@@ -74,3 +74,65 @@
   margin-left: 5px;
   background-color: var(--yellow);
 }
+.reply {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  bottom: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 13px;
+  background-color: white;
+  color: var(--gray);
+}
+
+.reply__column:first-child {
+  font-size: 24px;
+  width: 10%;
+}
+
+.reply__column:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.reply__column:last-child input {
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 20px;
+  border: var(--main-border);
+  padding: 8px;
+}
+
+.reply__column:last-child > i,
+.reply__column:last-child button {
+  position: absolute;
+}
+
+.reply__column:last-child button {
+  background-color: var(--yellow);
+  width: 34px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  right: 4px;
+  bottom: 3px;
+  font-size: 20px;
+  color: #2f363e;
+  border: none;
+}
+
+.reply__column:last-child > i {
+  bottom: 9px;
+  right: 50px;
+  font-size: 27px;
+}
+
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
+}
