@@ -42,18 +42,18 @@
 
 @keyframes notificataionAnimaion {
   25% {
-    transform: translateY(-7px) rotateY(360deg);
+    transform: translateY(-40px) rotateY(360deg);
   }
 
   75% {
-    transform: translateY(7px) rotateZ(360deg);
+    transform: translateY(20px) rotateZ(360deg);
   }
 }
 .nav__notification {
   position: absolute;
   right: 40px;
   bottom: 22px;
-  animation: notificataionAnimaion 0.1s ease-in-out infinite;
+  animation: notificataionAnimaion 0.2s ease-in-out infinite;
 }
 
 .nav__check {
