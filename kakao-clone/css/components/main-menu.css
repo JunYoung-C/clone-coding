@@ -1,0 +1,27 @@
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  color: var(--gray);
+}
+
+.main-menu__column {
+  display: flex;
+  align-items: center;
+}
+
+.main-menu__square {
+  border: 2px solid var(--gray);
+  width: 9px;
+  height: 9px;
+  margin: 0 17px;
+}
+
+.main-menu__underscore {
+  font-weight: 600;
+}
+
+.main-menu__column .fa-times {
+  font-size: 18px;
+}
