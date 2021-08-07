@@ -4,13 +4,14 @@
   justify-content: space-between;
   height: 100%;
   width: 17%;
-  position: absolute;
+  position: fixed;
   top: 0;
   padding-top: 65px;
   padding-bottom: 35px;
   box-sizing: border-box;
   background-color: #ececed;
   font-size: 27px;
+  z-index: 2;
 }
 
 .nav-bar__row {
