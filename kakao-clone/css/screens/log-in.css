@@ -2,8 +2,36 @@
   background-color: var(--yellow);
 }
 
+#log-in .main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--gray);
+  padding: 10px;
+}
+
+#log-in .main-menu__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#log-in .main-menu__divider {
+  width: 2px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.15);
+  margin: 0 18px;
+}
+
+#log-in .main-menu__column .fa-times {
+  margin-left: 20px;
+}
+
+#log-in .main-menu__underscore {
+  font-weight: 600;
+}
 .talk-bubble-box {
-  margin-top: 120px;
+  margin-top: 80px;
   width: 100%;
   display: flex;
   justify-content: center;
