@@ -29,9 +29,13 @@
 }
 .profile__name {
   font-weight: 600;
-  margin-bottom: 10px;
 }
 
 .profile__message {
+  margin-top: 10px;
   opacity: var(--message-opacity);
+}
+
+.profile__column:last-child {
+  position: relative;
 }

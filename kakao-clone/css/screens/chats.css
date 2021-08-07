@@ -1,3 +1,33 @@
 .nav-bar__chats--selected .fa-comment {
   opacity: 1;
 }
+
+.profile__multi-photo {
+  width: 26px;
+  height: 26px;
+  border-radius: 35%;
+}
+
+.profile__multi-photos {
+  margin-right: 23px;
+}
+
+.profile__member {
+  display: flex;
+  align-items: center;
+}
+
+.profile__count {
+  margin-left: 7px;
+  opacity: var(--message-opacity);
+}
+
+.profile__time {
+  position: absolute;
+  display: block;
+  bottom: 6px;
+  right: 10px;
+  width: 63px;
+  font-size: 13px;
+  opacity: var(--message-opacity);
+}
