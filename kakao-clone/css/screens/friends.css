@@ -6,7 +6,6 @@
   margin-top: 20px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   padding-top: 20px;
-  padding-bottom: 23px;
 }
 
 .multi-profile > .multi-profile__row:first-child {
@@ -38,6 +37,15 @@
   align-items: center;
 }
 
-.multi-profile__name {
+.multi-profile__name,
+.friends__name {
   margin-bottom: 0;
+}
+
+.friends .profile {
+  margin-top: 20px;
+}
+
+.friends__count {
+  margin-left: 7px;
 }
