@@ -2,6 +2,7 @@
 
 @import "reset.css";
 @import "variables.css";
+
 /* components */
 
 /* screens */
@@ -9,4 +10,11 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+}
+
+.divider {
+  width: 1.5px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.15);
+  margin: 0 17px;
 }

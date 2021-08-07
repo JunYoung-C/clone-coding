@@ -13,12 +13,7 @@
   justify-content: space-between;
   align-items: center;
 }
-#log-in .main-menu__divider {
-  width: 2px;
-  height: 15px;
-  background-color: rgba(0, 0, 0, 0.15);
-  margin: 0 18px;
-}
+
 #log-in .main-menu__column .fa-times {
   margin-left: 20px;
 }
@@ -112,4 +107,14 @@
 
 .log-in-menu input:focus {
   outline: none;
+}
+
+.log-in-option {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  bottom: 30px;
+  color: var(--gray);
 }
