@@ -1,0 +1,30 @@
+.individual {
+  margin-top: 25px;
+}
+
+.individual__column {
+  display: flex;
+  align-items: center;
+}
+
+.individual__photo {
+  width: 68px;
+  height: 68px;
+  border-radius: 35%;
+  margin-right: 17px;
+}
+
+.individual__status {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+}
+.individual__name {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.individual__message {
+  opacity: var(--opacity);
+  opacity: 0.7;
+}

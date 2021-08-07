@@ -36,5 +36,5 @@
 .nav-bar__row .fa-user,
 .nav-bar__row .fa-comment,
 .nav-bar__row .fa-ellipsis-h {
-  opacity: 0.3;
+  opacity: var(--opacity);
 }

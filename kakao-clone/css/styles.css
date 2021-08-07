@@ -8,6 +8,7 @@
 @import "components/main-menu.css";
 @import "components/red-circle.css";
 @import "components/status-bar.css";
+@import "components/profile.css";
 
 /* screens */
 @import "screens/log-in.css";
