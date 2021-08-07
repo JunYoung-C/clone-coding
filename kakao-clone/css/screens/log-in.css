@@ -1,0 +1,11 @@
+.talk-bubble {
+  position: relative;
+}
+
+.talk-bubble__bubble {
+  font-size: 120px;
+}
+
+.talk-bubble__text {
+  font-size: 32px;
+}
