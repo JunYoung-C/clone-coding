@@ -6,13 +6,16 @@
 /* components */
 @import "components/nav-bar.css";
 @import "components/main-menu.css";
+@import "components/red-circle.css";
+@import "components/status-bar.css";
 
 /* screens */
 @import "screens/log-in.css";
+@import "screens/friends.css";
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #262626;
+  color: #3c3c3c;
 }
 
 .divider {
@@ -20,4 +23,9 @@ body {
   height: 15px;
   background-color: rgba(0, 0, 0, 0.15);
   margin: 0 17px;
+}
+
+.main {
+  margin-left: var(--left-margin);
+  padding: 0 25px;
 }

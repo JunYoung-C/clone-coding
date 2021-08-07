@@ -20,13 +20,21 @@
   align-items: center;
 }
 
+.nav-bar__row:last-child {
+  color: var(--gray);
+}
+
 .nav-bar__chats {
   margin: 50px 0;
 }
 .nav-bar__alarm {
   margin: 28px 0;
 }
-
-.nav-bar__row:first-child {
+.nav-bar__row:first-child a {
+  position: relative;
+}
+.nav-bar__row .fa-user,
+.nav-bar__row .fa-comment,
+.nav-bar__row .fa-ellipsis-h {
   opacity: 0.3;
 }
