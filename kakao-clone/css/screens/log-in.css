@@ -105,10 +105,6 @@
   color: white;
 }
 
-.log-in-menu input:focus {
-  outline: none;
-}
-
 .log-in-option {
   display: flex;
   justify-content: center;

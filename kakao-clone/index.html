@@ -27,10 +27,10 @@
         </div>
     </div>
 
-    <form class="log-in-menu">
-        <input name="ID" type="text" placeholder="카카오계정 (이메일 또는 전화번호)">
-        <input name="Password" type="password" placeholder="비밀번호" >
-        <button class="log-in-menu__btn">로그인</button>
+    <form action="friends.html" method="get" class="log-in-menu">
+        <input name="ID" type="text" placeholder="카카오계정 (이메일 또는 전화번호)" required>
+        <input name="Password" type="password" placeholder="비밀번호" required>
+        <button class="log-in-menu__btn" type="submit">로그인</button>
         <div class="log-in-menu__auto">
             <input type="checkbox" class="log-in-menu__checkbox">
             <span class="log-in-menu__auto-text">자동로그인</span>
@@ -38,13 +38,12 @@
                 <span class="log-in-menu__auto-icon">?</span>
             </div>
         </div>
-        
     </form>
 
     <div class="log-in-option">
-        <span>카카오계정 찾기</span>
+        <a href="#">카카오계정 찾기</a>
         <div class="divider"></div>
-        <span>비밀번호 재설정</span>
+        <a href="#">비밀번호 재설정</a>
     </div>
 </body>
 </html>
