@@ -1,0 +1,32 @@
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 17%;
+  position: absolute;
+  top: 0;
+  padding-top: 65px;
+  padding-bottom: 35px;
+  box-sizing: border-box;
+  background-color: #ececed;
+  font-size: 27px;
+}
+
+.nav-bar__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar__chats {
+  margin: 50px 0;
+}
+.nav-bar__alarm {
+  margin: 28px 0;
+}
+
+.nav-bar__row:first-child {
+  opacity: 0.3;
+}
