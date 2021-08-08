@@ -44,12 +44,14 @@
   color: #3961e1;
 }
 
-.my-info__icon-comment {
-  color: var(--yellow);
-  font-size: 20px;
+.my-info__icon-circle {
+  background-color: var(--yellow);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
   position: absolute;
-  top: 4px;
-  right: 7px;
+  top: 2px;
+  right: 8px;
 }
 
 .my-info__title-subscribe {
