@@ -9,6 +9,7 @@
 @import "components/red-circle.css";
 @import "components/status-bar.css";
 @import "components/profile.css";
+@import "components/sub-main-menu.css";
 
 /* screens */
 @import "screens/log-in.css";
