@@ -1,0 +1,34 @@
+input[id="search-checkbox"] + label,
+input[id="log-in-checkbox1"] + label,
+input[id="log-in-checkbox2"] + label,
+input[id="lock-checkbox"] + label {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  border: var(--main-border);
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+input[id="search-checkbox"]:checked + label:after,
+input[id="log-in-checkbox1"]:checked + label:after,
+input[id="log-in-checkbox2"]:checked + label:after,
+input[id="lock-checkbox"]:checked + label:after {
+  content: "\2714";
+  font-size: 18px;
+  color: white;
+  background-color: var(--yellow);
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[id="search-checkbox"],
+input[id="log-in-checkbox1"],
+input[id="log-in-checkbox2"],
+input[id="lock-checkbox"] {
+  display: none;
+}

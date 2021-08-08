@@ -119,27 +119,24 @@
   font-size: 14px;
 }
 
-input[id="yello-checkbox"] + label {
-  display: inline-block;
-  width: 23px;
-  height: 23px;
-  border: var(--main-border);
-  border-radius: 50%;
-  margin-right: 7px;
-}
-input[id="yello-checkbox"]:checked + label:after {
-  content: "\2714";
-  font-size: 20px;
-  color: white;
-  background-color: var(--yellow);
-  width: 23px;
-  height: 23px;
-  border-radius: 50%;
+.cog-general__component-contents-row {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
 }
 
-input[id="yello-checkbox"] {
-  display: none;
+.cog-general__component-option-name {
+  font-size: 12px;
+}
+.cog-general__component-option {
+  opacity: 0.7;
+  border: 1px solid var(--weak-gray);
+  border-radius: 5px;
+  padding: 0 9px;
+  box-sizing: border-box;
+  width: 120px;
+  height: 31px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
