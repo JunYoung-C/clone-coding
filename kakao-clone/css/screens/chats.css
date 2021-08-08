@@ -31,3 +31,9 @@
   font-size: 13px;
   opacity: var(--message-opacity);
 }
+
+.profile__column:last-child .red-circle {
+  position: absolute;
+  top: 6px;
+  left: -31px;
+}
