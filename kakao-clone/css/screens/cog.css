@@ -2,3 +2,18 @@
   font-size: 14px;
   padding-top: 20px;
 }
+
+#cog .sub-nav-bar {
+  width: 20%;
+  background-color: white;
+  border-right: var(--main-border);
+}
+
+#cog .sub-nav-bar__title {
+  height: 36px;
+  opacity: 0.4;
+}
+#cog .sub-nav-bar__title--selected {
+  background-color: #ececed;
+  opacity: 1;
+}
