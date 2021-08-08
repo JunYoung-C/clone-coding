@@ -21,6 +21,7 @@
 @import "screens/more.css";
 @import "screens/emoticon.css";
 @import "screens/cog.css";
+@import "screens/chat.css";
 
 body {
   font-family: "Open Sans", sans-serif;

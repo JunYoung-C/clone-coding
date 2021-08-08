@@ -1,0 +1,33 @@
+.chat-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #a9bdce;
+  font-size: 15px;
+}
+
+.chat-menu__room-head {
+  display: flex;
+  align-items: center;
+}
+
+.chat-menu__room-photos {
+  margin-right: 15px;
+}
+
+.chat-menu__room-status {
+  opacity: var(--message-opacity);
+}
+.chat-menu__room-title {
+  margin-bottom: 19px;
+  font-weight: 600;
+}
+
+.chat-menu__room-icons {
+  margin-left: 4px;
+}
+
+.chat-menu__room-icon-box {
+  margin-right: 20px;
+}
