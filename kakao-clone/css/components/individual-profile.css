@@ -1,0 +1,13 @@
+#individual-profile {
+  background-color: #848b91;
+}
+
+.individual-profile-menu {
+  font-size: 18px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  color: white;
+}

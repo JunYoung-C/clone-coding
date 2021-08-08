@@ -12,6 +12,7 @@
 @import "components/sub-main-menu.css";
 @import "components/sub-nav-bar.css";
 @import "components/checkbox.css";
+@import "components/individual-profile.css";
 
 /* screens */
 @import "screens/log-in.css";
