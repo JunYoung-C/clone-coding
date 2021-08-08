@@ -16,9 +16,13 @@ body {
   align-items: center;
   font-size: 13px;
   font-weight: 600;
-  margin-left: 21px;
+  padding-left: 21px;
 }
 
 .sub-nav-bar__title:first-child {
   padding-top: 10px;
+}
+
+.sub-nav-bar__title--selected {
+  background-color: #dfdfe0;
 }

@@ -1,0 +1,41 @@
+.emoticon-main {
+  padding-top: 67px;
+  padding-left: 27%;
+  margin-left: 22px;
+}
+
+.emoticon-main .profile__photo {
+  border-radius: 0;
+}
+
+.emoticon-main .profile__name {
+  font-size: 14px;
+}
+
+.emoticon-main .profile__message {
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+.profile__emoticon {
+  margin-right: 17px;
+}
+
+.profile__emoticon-rank {
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  height: 41px;
+}
+
+.emoticon-main .profile__column .red-circle {
+  width: 17px;
+  height: 17px;
+  font-size: 11px;
+}
+
+.emoticon-main .profile__column {
+  height: 68px;
+  right: 20px;
+  top: 11px;
+}
