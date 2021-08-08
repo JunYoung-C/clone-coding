@@ -30,6 +30,7 @@
 }
 
 .individual-profile-info__status {
+  width: 100%;
   height: 87px;
   display: flex;
   flex-direction: column;
@@ -41,13 +42,15 @@
 .individual-profile-info__status-name {
   margin-bottom: 10px;
   font-size: 21px;
+  position: relative;
 }
 
 .individual-profile-info_-status-name-edit {
   position: absolute;
-  right: -1px;
+  right: -25px;
   top: 2px;
   color: #e0e1e3;
+  font-size: 17px;
 }
 .individual-profile-info__option {
   height: 120px;
