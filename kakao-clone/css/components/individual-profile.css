@@ -11,3 +11,59 @@
   box-sizing: border-box;
   color: white;
 }
+
+.individual-profile-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 5px;
+  box-sizing: border-box;
+}
+
+.individual-profile-info__photo {
+  width: 105px;
+  height: 105px;
+  border-radius: 35%;
+  margin-bottom: 15px;
+}
+
+.individual-profile-info__status {
+  height: 87px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.individual-profile-info__status-name {
+  margin-bottom: 10px;
+  font-size: 21px;
+}
+.individual-profile-info__option {
+  height: 120px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0 33px;
+  box-sizing: border-box;
+}
+
+.individual-profile-info__option-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.individual-profile-info__option-icon {
+  margin-bottom: 18px;
+  font-size: 25px;
+}
+
+.individual-profile-info__option-name {
+  font-size: 16px;
+}
