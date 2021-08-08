@@ -16,9 +16,11 @@
   margin-right: 15px;
 }
 
-.chat-menu__room-status {
+.chat-menu__room-status,
+.chat-menu__room-option {
   opacity: var(--message-opacity);
 }
+
 .chat-menu__room-title {
   margin-bottom: 19px;
   font-weight: 600;
@@ -30,4 +32,34 @@
 
 .chat-menu__room-icon-box {
   margin-right: 20px;
+}
+
+.chat-menu__room-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 60px;
+  height: 55px;
+}
+.chat-menu__room-option-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat-menu__room-option-icons {
+  display: flex;
+}
+.chat-menu__room-option-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 29px;
+  height: 29px;
+  background-color: #9dafbe;
+  border-radius: 50%;
+}
+
+.chat-menu__room-option-icon:last-child {
+  margin-left: 7px;
 }
