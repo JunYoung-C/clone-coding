@@ -1,9 +1,7 @@
 .sub-nav-bar {
   width: 27%;
 }
-body {
-  height: 1000vh;
-}
+
 .sub-nav-bar__row {
   margin-top: 2px;
   display: flex;
