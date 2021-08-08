@@ -59,9 +59,37 @@
 }
 
 .my-info__title-mail {
-  opacity: var(--message-opacity);
+  opacity: 0.4;
+  font-weight: 600;
 }
 
 .my-info__icon-chevron {
   opacity: 0.4;
+}
+
+.more-icons {
+  margin-top: 15px;
+}
+.more-icons__row {
+  display: flex;
+}
+
+.more-icons__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+}
+
+.more-icons__icon {
+  font-size: 27px;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.more-icons__text {
+  opacity: 0.4;
+  font-weight: 600;
 }
