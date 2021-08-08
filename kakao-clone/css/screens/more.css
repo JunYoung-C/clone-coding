@@ -1,3 +1,65 @@
 .nav-bar__nore--selected .fa-ellipsis-h {
   opacity: 1;
 }
+
+.my-info {
+  border: var(--main-border);
+  margin-top: 35px;
+  background-color: #fafafa;
+  border-radius: 5px;
+}
+
+.my-info__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-info__row:first-child {
+  padding: 25px;
+}
+
+.my-info__row:last-child {
+  border-top: var(--main-border);
+  padding: 20px 25px;
+}
+
+.my-info__row:first-child .my-info__title {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-info__title-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.my-info__row:first-child .my-info__icon {
+  position: relative;
+  font-size: 30px;
+}
+
+.my-info__icon-shield {
+  color: #3961e1;
+}
+
+.my-info__icon-comment {
+  color: var(--yellow);
+  font-size: 20px;
+  position: absolute;
+  top: 4px;
+  right: 7px;
+}
+
+.my-info__title-subscribe {
+  font-weight: 600;
+}
+
+.my-info__title-mail {
+  opacity: var(--message-opacity);
+}
+
+.my-info__icon-chevron {
+  opacity: 0.4;
+}
