@@ -147,8 +147,8 @@
 
 .chat-input__typing-zone {
   box-sizing: border-box;
-  height: 60px;
   display: flex;
+  margin-bottom: 15px;
 }
 
 .chat-input__typing-text {
@@ -161,7 +161,7 @@
 
 .chat-input__typing-send {
   height: 35px;
-  width: 60px;
+  width: 70px;
   background-color: var(--yellow);
   border: var(--main-border);
   border-radius: 3px;
@@ -170,5 +170,39 @@
 
 .chat-input__icon-zone {
   box-sizing: border-box;
-  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-input__icons {
+  font-size: 20px;
+}
+
+.chat-input__icon {
+  margin-right: 25px;
+  color: var(--gray);
+}
+
+.chat-input__drag {
+  width: 60px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.chat-input__drag-line {
+  border: 1px solid var(--weak-gray);
+  width: 60px;
+}
+
+.chat-input__drag-circle {
+  border: 1px solid var(--weak-gray);
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: white;
+  right: 0;
 }
