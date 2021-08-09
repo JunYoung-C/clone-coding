@@ -27,8 +27,11 @@
   height: 105px;
   border-radius: 35%;
   margin-bottom: 15px;
+  transition: transform 0.5s ease-in-out;
 }
-
+.individual-profile-info__photo:hover {
+  transform: translateY(-100px) rotateX(360deg) scaleX(3) scaleY(3);
+}
 .individual-profile-info__status {
   width: 100%;
   height: 87px;

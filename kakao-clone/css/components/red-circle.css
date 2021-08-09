@@ -1,3 +1,15 @@
+@keyframes circleRotate {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(20px) rotateY(720deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .red-circle {
   background-color: #ff5442;
   border-radius: 50%;
@@ -12,4 +24,6 @@
   position: absolute;
   left: 21px;
   bottom: 18px;
+  will-change: auto;
+  animation: circleRotate 1s ease-in-out infinite;
 }
