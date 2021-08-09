@@ -132,3 +132,43 @@
   left: -75px;
   bottom: 22px;
 }
+
+.chat-input {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  height: 120px;
+  background-color: white;
+  padding: 15px;
+  padding-bottom: 10px;
+}
+
+.chat-input__typing-zone {
+  box-sizing: border-box;
+  height: 60px;
+  display: flex;
+}
+
+.chat-input__typing-text {
+  height: 26px;
+  width: 100%;
+  margin-right: 15px;
+  font-size: 20px;
+  border: none;
+}
+
+.chat-input__typing-send {
+  height: 35px;
+  width: 60px;
+  background-color: var(--yellow);
+  border: var(--main-border);
+  border-radius: 3px;
+  color: var(--gray);
+}
+
+.chat-input__icon-zone {
+  box-sizing: border-box;
+  height: 60px;
+}
