@@ -119,3 +119,16 @@
 .chat-status__comment--cap .chat-status__comment-time {
   left: 195px;
 }
+
+.chat-status__row--mine {
+  flex-direction: row-reverse;
+  height: 40px;
+}
+
+.chat-status__row--mine .chat-status__comment-bubble {
+  background-color: var(--yellow);
+}
+.chat-status__row--mine .chat-status__comment-time {
+  left: -75px;
+  bottom: 22px;
+}
